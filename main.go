@@ -16,7 +16,7 @@ func init() {
 	fmt.Printf("Starting application port:8080 \n")
 
 	var err error
-	connStr = "host=localhost port=5432 dbname=site user=postgres password=google sslmode=disable"
+	connStr = "host=localhost port=5432 dbname=databasename user=database password=password sslmode=disable"
 	db, err = sql.Open("postgres", connStr)
 	if err != nil {
 		log.Fatal("NO OPEN, err")
