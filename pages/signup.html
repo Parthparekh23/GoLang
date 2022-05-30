@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="/assets/css/singup.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header">
+      <div class="upper-header">
+        <div class="header-logo">
+          <img src="/assets/img/logo.svg" alt="filmwebclone">
+        </div>
+        <div class="header-searchbox">
+          <input type="text" placeholder="Search for movies, series, games, characters and worlds" id="search">
+        </div>
+        <a class="header-button" href="/login">Login</a>
+      </div>
+      <div class="header-nav">
+        <li><a href="#movies">MOVIES</a></li>
+        <li><a href="#tvshows">TVSHOWS</a></li>
+        <li><a href="#games">GAMES</a></li>
+        <li><a href="#rankings">RANKINGS</a></li>
+        <li><a href="#incinemas">INCINEMAS</a></li>
+        <li><a href="#ontv">ON TV</a></li>
+        <li><a href="#myfilmweb">MYFILMWEB</a></li>
+      </div>
+
+    </div>
+  </header>
+  <section class="register">
+    <h5>CREATE AN ACCOUNT IN TWO EASY STEPS</h5>
+    <form action="/register-submit">
+      <label for="username"><b>*User Name</b></label><br>
+      <input type="text" name="username" id="username" required><br>
+      <label for="email"><b>*Email</b></label><br>
+      <input type="text" name="email" id="email" required><br>
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" name="psw" id="psw" required><br>
+      <button type="submit" class="submitbtn">Register</button>
+    </form>
+  </section>
+
+</body>
+
+</html>

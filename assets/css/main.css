@@ -1,0 +1,173 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  #mainDiv {
+    background-image: url("/assets/img/main-background.jpg");
+    display: flex;
+    background-size: cover;
+    padding: 280px;
+    margin: 0, auto;
+    margin-top: -100px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ddd;
+  }
+  
+  /* HEADER */
+  .header {
+    width: 100vw;
+    height: auto;
+    position: sticky;
+    display: flexbox;
+    text-decoration: none;
+    background-color: #000000;
+  }
+  
+  .upper-header {
+    padding-left: 430px;
+    padding-bottom: -10px;;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .header-logo {
+    display: inline-block;
+    margin: 0 auto;
+  
+  }
+  
+  .header-logo img {
+    width: 10rem;
+    height: 2rem;
+    vertical-align: bottom;
+  
+  }
+  
+  .header-searchbox {
+    display: inline-block;
+    text-align: right;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .header-nav li {
+    display: inline;
+  }
+  
+  .header-nav a {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .header-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header-button {
+    padding-left: 80px;
+  }
+  
+  /* HEADER END */
+  
+  #middleSection {
+    background-color: aliceblue;
+  
+  }
+  
+  #row {
+    margin: 0;
+    padding: 60px;
+    margin-top: -130px;
+  }
+  
+  .cname {
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  
+  img {
+    cursor: pointer;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-top: 30px;
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin: 0 -5px;
+  }
+  .twosection{
+    padding-top: 390px;
+    background-color:white;
+  }
+  .footer{
+    width: 1420px;
+    padding: 50px;
+    padding-bottom: 150px;
+    background: #ccc;
+    display: flex;
+  }
+  .footer div{
+    text-align: center;
+  }
+  .col-2{
+    flex-grow: 2;
+  }
+  .footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  .col-1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+  }
+  form input{
+    width:400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+  }
+  form button{
+    background:lightslategrey;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
